@@ -2,8 +2,17 @@ package TAP::Spec::Parser;
 use strict;
 use warnings;
 
+our $VERSION = 0.01;
+
 use Regexp::Grammars 1.002;
 use TAP::Spec::TestSet ();
+
+=head1 NAME
+
+TAP::Spec::Parser - Reference implementation of the TAP specification
+
+=cut
+
 
 my $tap_grammar = qr~
 # Main production
