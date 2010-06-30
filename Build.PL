@@ -9,6 +9,7 @@ my $build = Module::Build->new(
         "Regexp::Grammars"      => 0,
         "Path::Class"           => 0,
         "YAML::Any"             => 0,
+        Moose                   => 0,
     }
 );
 $build->create_build_script;
